@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BBC news </title>
+        <style type="text/css">
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            #topbar{
+                width: 1000px;
+                margin: 0, auto;
+                height: 40px;
+                margin: 0;
+                padding: 0;
+            }
+            #logo{
+                height: 80px;
+                width: 150px;
+                margin-left: 10px;
+                margin-top: 10px;
+                float: left;
+                margin-right: 8px;
+            }
+            .topbar-section{
+                float: left;
+                border-left: 1px grey solid;
+                height: 100px;
+            }
+            #signin{
+                width: 100px;
+                height: 90px;
+                margin-left: 10px;
+                margin-top: 10px;
+                float: left;
+                margin-right: 8px;
+            }
+            #signin-text{
+                font-weight: bold;
+                font-size: 30px;
+                position: relative;
+                top: 14px;
+                padding-right: 50px;
+            }
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 20px;
+                padding: 14px 15px 0px 15px;
+                margin-top: 0px;
+                height: 27px;
+                
+            }
+            #Arrow{
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+                margin-top: 0;
+            }
+            #Search{
+                
+                height: 15px;
+                margin-top: 5px;
+            }
+            #search-box{
+                background-color: beige;
+                height: 10px;
+                font-size: 14px;
+                padding: 5px;
+                margin: 5px 0 5px 5px;
+            }
+            .clear{
+                clear:both;
+            }
+            #menubar-container{
+                background-color: rgb(255, 0, 8);
+                width: 100%;
+                height: 70px;
+            }
+            #menu-bar{
+                width: 1000px;
+                margin: 0, auto;
+            }
+
+            h1{
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+            }
+            #menu-bar2-container{
+                background-color:orange;
+                width: 100%;
+
+            }
+            #menu-bar2{
+                width:1000px;
+                margin: 0 auto;
+                height: 30px;
+            }
+            #menu-bar2 a{
+                color: blue;
+                text-decoration: none;
+                margin-top: 5px;
+                padding: 0 10px;
+                border-right:2px solid black;
+                font-size: 14px;
+                font-weight: bold;
+                position: relative;
+                top: 10px;
+            }
+            #menu-bar2 a:hover{
+                text-decoration: underline;
+            }
+            .no-border{
+                border: none !important;
+            }
+            #downarrow{
+                height: 10px;
+                position: relative;
+                top: 10px;
+            }
+            #page-container{
+                width: 1000px;
+                margin: 0 auto;
+
+            }
+            h2{
+                font-weight: normal;
+                margin-top: 40px;
+                font-size: 20px;
+                border-bottom: 2px solid black;
+                width: 70px;
+
+            }
+            h3 a {
+                font-size: 30px
+
+            }
+            h3 a:hover{
+                color: green;
+            }
+            #Article-summary{
+                color: black;
+                width: 400px;
+            }
+            #Article-container{
+                float: right;
+                border-right: 1px solid grey;
+                
+
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="topbar">
+            <img id="logo" src="D:\WEB DEVELOPMENT/bbclogo.png">
+            <div id="signin-div" class="topbar-section">
+                <img id="signin" src="D:\WEB DEVELOPMENT/signin.png">
+                <span id="signin-text" >Sign in</span>
+            </div>
+            <div class="topbar-section topbar-menu">
+                News
+            </div>
+            <div class="topbar-section topbar-menu">
+                Tech
+            </div>
+            <div class="topbar-section topbar-menu">
+                Sports
+            </div>
+            <div class="topbar-section topbar-menu">
+                Whether
+            </div>
+            <div class="topbar-section topbar-menu">
+                TV
+            </div>
+            <div class="topbar-section topbar-menu">
+                More
+                <img id="Arrow" src="D:\WEB DEVELOPMENT/more-arrow.png">
+            </div>
+            <div class="topbar-section topbar-menu">
+                <input id="search-box" type="text" value="search">  
+                <img id="Search" src="D:\WEB DEVELOPMENT/search.png">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="menubar-container">
+            <div id="menu-bar">
+                <h1>NEWS</h1>
+            </div>
+            <div class="clear"></div>
+        
+            <div id="menu-bar2-container">
+                <div id="menu-bar2">
+                    <a href="">Home</a>
+                    <a href="">India</a>
+                    <a href="">World</a>
+                    <a href="">Business</a>
+                    <a href="">Politics</a>
+                    <a href="">Science</a>
+                    <a href="">Health</a>
+                    <a href="">Entertaintment&Arts</a>
+                    <a href="">Video</a>
+                    <a href="" class="no-border">More</a>
+                    <img id="downarrow" src="D:\WEB DEVELOPMENT/Downarrow.png">
+                </div>
+                
+
+            </div>
+           
+            
+        </div>
+        <div class="clear"></div>
+        <div id="page-container">
+            <div id="main-article">
+                <h2>Sports</h2>
+                <div id="Article-container">
+                   <h3><a href="">Australian Open:
+                    Djokovic-Tsitsipas in see-saw 3rd set battle
+                   </a></h3>
+                   
+                   <div id="Article-summary">
+                     <p>
+                    Novak Djokovic broke Stefanos Tsitsipas early in the first set to assert his dominance. The Serbian star remained the dominant player throughout, winning the first set 6-3. In the second set, Tsitsipas put in a better show, taking the game to tie-breaker where Djokovic prevailed. The Greek hasn't looked as confident as he has been for the most part of the Grand Slam. The Serb is eyeing his 10th Australian Open crown, with Rafael Nadal being the only one who has won more major titles in men's singles than the mighty Djokovic. When it comes to the overall head-to-head record, Tsitsipas has only beaten Djokovic twice in twelve games. The Serb has come out on top on ten occasions.
+                     </p>
+                   </div>
+                   <img id="tenis" src="D:\WEB DEVELOPMENT/sportscontent.png">
+               </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
